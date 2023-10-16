@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Quote Generator</title>
+</head>
+<body>
+  <div class="quote-container" id="quote-container" hidden>
+    <div class="quote-text-container">
+      <i class="fa-solid fa-quote-left"></i>
+      <span class="quote-text" id="quote-text"></span>
+    </div>
+    <div class="quote-author-container">
+      <span class="quote-author" id="quote-author"></span>
+    </div>
+    <div class="media-buttons-container">
+      <button class="facebook-button" id="facebook-button"><i class="fa-brands fa-facebook"></i></button>
+      <button class="new-quote-button" id="new-quote-button">New Quote</button>
+    </div>
+  </div>
+
+  <!-- Loader -->
+  <div class="loader" id="loader"></div>
+
+  <!-- scripts -->
+  <script src="https://kit.fontawesome.com/6a41d356fb.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
